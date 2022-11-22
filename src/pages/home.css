@@ -1,0 +1,66 @@
+body {
+  font-family: Arial;
+  background-color: rgb(0, 0, 108);
+  color: white;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1 auto;
+}
+
+main {
+  flex: 1 auto;
+}
+
+.main-box {
+  display: flex;
+  width: 1100px;
+  height: 600px;
+  margin: 30px auto;
+}
+
+.infobox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 50%;
+  background-color: rgb(245, 245, 245);
+}
+
+.infobox h2 {
+  margin-bottom: 40px;
+  color: black;
+}
+
+.infobox h1, .infobox h3 {
+  color: black;
+}
+
+.resume-btn {
+  cursor: pointer;
+  background-color: rgb(0, 102, 255);
+  border-style: none;
+  padding: 20px 40px;
+  text-decoration: none;
+  transition: background-color 0.15s;
+  margin-top: 50px;
+  border-radius: 5px;
+  color: white;
+}
+
+.resume-btn:hover {
+  background-color: rgb(88, 155, 255);
+}
+
+.profile-pic {
+  width: 50%;
+  object-fit: cover;
+  object-position: 0 60%;
+  pointer-events: none;
+}

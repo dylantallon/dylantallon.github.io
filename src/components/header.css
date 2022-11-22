@@ -1,0 +1,44 @@
+header {
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: darkblue;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(0, 0, 69);
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.linkL {
+  margin-left: 30px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.linkR {
+  margin-right: 30px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.linkR:hover {
+  text-decoration: underline;
+}

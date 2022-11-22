@@ -1,0 +1,58 @@
+.projectGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 25px;
+  margin: 0px 50px;
+  grid-auto-rows: 1fr;
+}
+
+.projectPreview{
+  border-style: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.projectPopupOuter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  transition: opacity 0.4s;
+  background-color: black;
+  z-index: 20;
+}
+
+.projectPopupInner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+  width: 50%;
+  transition: opacity 0.4s;
+  background-color: white;
+  color: black;
+  overflow: auto;
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 21;
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+}
+
+.imageSideBySide{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.imageSideBySide img{
+  width: 100%;
+}

@@ -1,0 +1,55 @@
+.heading{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.collapsibles{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 72%;
+}
+
+input {
+  display: none;
+  visibility: hidden;
+}
+
+.label {
+  display: block;
+  padding: 1em;
+  text-align: center;
+  background-color: rgb(29, 57, 216);
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.label:hover {
+  text-decoration: underline;
+}
+
+.plusIcon {
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  vertical-align: text-top;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+  float: right;
+}
+
+.expand {
+  overflow: hidden;
+  transition: height 0.4s;
+  background-color: rgb(29, 57, 216);
+  margin-bottom: 10px;
+}
+
+.classList li{
+  margin-bottom: 5px;
+}
