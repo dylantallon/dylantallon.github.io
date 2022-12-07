@@ -10,6 +10,7 @@ const Home = () => {
           <h2>
             2nd-Year Computer Science Student at the University of Florida
           </h2>
+          <h3>Expected Graduation: May 2025</h3>
           <h3>Email: dylantallon313@gmail.com</h3>
           <h3>Phone: (305) 397-3966</h3>
           <a

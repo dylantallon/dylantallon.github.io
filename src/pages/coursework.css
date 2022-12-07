@@ -1,11 +1,11 @@
-.heading{
+.heading {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 50px;
 }
 
-.collapsibles{
+.collapsibles {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -34,7 +34,7 @@ input {
   font-weight: bold;
   font-size: 15px;
   color: black;
-  vertical-align: text-top;
+  vertical-align: middle;
   text-align: center;
   width: 20px;
   height: 20px;
@@ -50,6 +50,6 @@ input {
   margin-bottom: 10px;
 }
 
-.classList li{
+.classList li {
   margin-bottom: 5px;
 }

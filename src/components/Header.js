@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { SocialIcon } from "react-social-icons";
 
 import "./header.css";
 
@@ -25,6 +26,8 @@ const Header = () => {
         <Link className="linkR" to="/projects">
           Projects
         </Link>
+        <SocialIcon style={{ height: 40, width: 40, marginRight: 10 }} url="https://www.linkedin.com/in/dylan-tallon/" fgColor="#ffffff" />
+        <SocialIcon style={{ height: 40, width: 40, marginRight: 10 }} url="https://github.com/dylant313" fgColor="#ffffff" />
       </div>
     </header>
   );
