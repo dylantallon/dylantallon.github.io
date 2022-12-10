@@ -1,6 +1,6 @@
 import React from "react";
 
-const footerStyle = {
+const footerStyle: React.CSSProperties = {
   backgroundColor: "darkblue",
   height: "60px",
   width: "100%",

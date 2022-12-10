@@ -16,6 +16,7 @@ const Home = () => {
           <a
             href="https://drive.google.com/file/d/1jrbEERCHxpaLkOEa0bEB-A8xCEkLkt28/view"
             target="_blank"
+            rel="noreferrer"
             className="resume-btn"
           >
             Resume

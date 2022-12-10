@@ -1,7 +1,13 @@
 import React from "react";
 import { useState } from "react";
 
-const Collabsible = ({ id, semester, classes }) => {
+type Props = {
+  id: string,
+  semester: string,
+  classes: string[]
+}
+
+const Collabsible = ({ id, semester, classes }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleChange = () => {

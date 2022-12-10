@@ -3,7 +3,7 @@ import "./projects.css";
 
 import Project from "../components/Project";
 
-const projectArray = [
+const projectArray: JSX.Element[] = [
   <div>
     <h1 id="projectTitle">TSA Video Game Design - Olympics Game</h1>
     <h2 className="projectDates">September 2019 - February 2020</h2>
@@ -12,9 +12,8 @@ const projectArray = [
       height="315"
       src="https://www.youtube.com/embed/n5oJT0fUDGc"
       title="YouTube video player"
-      frameborder="0"
       allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
+      allowFullScreen
     ></iframe>
     <p className="projectText">
       This game was created during my junior year of high school for the 2020
@@ -50,9 +49,8 @@ const projectArray = [
       height="315"
       src="https://www.youtube.com/embed/p8n-K4dKu5k"
       title="YouTube video player"
-      frameborder="0"
       allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
+      allowFullScreen
     ></iframe>
     <p className="projectText">
       This game was created during my senior year of high school for the 2021

@@ -1,7 +1,13 @@
 import React from "react";
 import { useState } from "react";
 
-const Project = ({ item, title, preview }) => {
+type Props = {
+  item: JSX.Element,
+  title: string,
+  preview: string
+}
+
+const Project = ({ item, title, preview }: Props) => {
   const [popupOpen, setPopupOpen] = useState(false);
   const clickHandler = () => {
     setPopupOpen(!popupOpen);
