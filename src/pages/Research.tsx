@@ -15,7 +15,7 @@ const Research = () => {
         </h3>
         <img
           className="researchPoster"
-          src="/images/poster.png"
+          src="/images/Poster.png"
           alt="Research poster"
         />
         <p className="researchText">

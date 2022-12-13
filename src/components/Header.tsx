@@ -27,7 +27,7 @@ const Header = () => {
           Projects
         </Link>
         <SocialIcon style={{ height: 40, width: 40, marginRight: 10 }} url="https://www.linkedin.com/in/dylan-tallon/" fgColor="#ffffff" />
-        <SocialIcon style={{ height: 40, width: 40, marginRight: 10 }} url="https://github.com/dylant313" fgColor="#ffffff" />
+        <SocialIcon style={{ height: 40, width: 40, marginRight: 10 }} url="https://github.com/dylantallon" fgColor="#ffffff" />
       </div>
     </header>
   );
