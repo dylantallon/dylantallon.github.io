@@ -39,6 +39,18 @@ header {
   text-decoration: none;
 }
 
+@media (max-width: 550px) {
+  .linkR {
+    margin-right: 15px;
+    font-size: 12px;
+  }
+
+  .linkL {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+}
+
 .linkR:hover {
   text-decoration: underline;
 }

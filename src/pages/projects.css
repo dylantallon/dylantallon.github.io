@@ -43,10 +43,17 @@
   z-index: 21;
 }
 
+@media (max-width: 550px) {
+  .projectPopupInner {
+    width: 70%;
+  }
+}
+
 iframe {
   display: block;
   margin: 0 auto;
-  border: 0px
+  border: 0px;
+  max-width: 100%;
 }
 
 .imageSideBySide {

@@ -18,9 +18,15 @@ main {
 
 .main-box {
   display: flex;
-  width: 1100px;
+  width: 70vw;
   height: 600px;
   margin: 30px auto;
+}
+
+@media (max-width: 550px) {
+  .main-box {
+    width: 90vw;
+  }
 }
 
 .infobox {
@@ -38,7 +44,8 @@ main {
   color: black;
 }
 
-.infobox h1, .infobox h3 {
+.infobox h1,
+.infobox h3 {
   color: black;
 }
 
