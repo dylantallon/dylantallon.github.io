@@ -19,14 +19,8 @@ main {
 .main-box {
   display: flex;
   width: 70vw;
-  height: 600px;
+  height: 43vw;
   margin: 30px auto;
-}
-
-@media (max-width: 550px) {
-  .main-box {
-    width: 90vw;
-  }
 }
 
 .infobox {
@@ -37,6 +31,7 @@ main {
   flex-direction: column;
   width: 50%;
   background-color: rgb(245, 245, 245);
+  padding: 10px 0px;
 }
 
 .infobox h2 {
@@ -67,7 +62,21 @@ main {
 
 .profile-pic {
   width: 50%;
-  object-fit: cover;
-  object-position: 0 60%;
   pointer-events: none;
+}
+
+@media (max-width: 550px) {
+  .main-box {
+    width: 90vw;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .infobox {
+    width: 100%;
+  }
+
+  .profile-pic {
+    width: 100%;
+  }
 }
