@@ -19,7 +19,7 @@ main {
 .main-box {
   display: flex;
   width: 70vw;
-  height: 43vw;
+  height: 42vw;
   margin: 30px auto;
 }
 
@@ -34,14 +34,14 @@ main {
   padding: 10px 0px;
 }
 
-.infobox h2 {
-  margin-bottom: 40px;
-  color: black;
-}
-
 .infobox h1,
 .infobox h3 {
   color: black;
+}
+
+.infobox h2 {
+  color: black;
+  margin-bottom: 40px;
 }
 
 .resume-btn {
@@ -78,5 +78,26 @@ main {
 
   .profile-pic {
     width: 100%;
+  }
+}
+
+@media (min-width: 550px) {
+  .infobox h1 {
+    font-size: 2.5vw;
+  }
+
+  .infobox h2 {
+    font-size: 1.6vw;
+    margin-bottom: 1.7vw;
+  }
+
+  .infobox h3 {
+    font-size: 1.25vw;
+  }
+
+  .resume-btn {
+    margin-top: 3vw;
+    font-size: 1.2vw;
+    padding: 1.5vw 3vw;
   }
 }

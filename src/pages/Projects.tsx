@@ -153,6 +153,32 @@ const projectArray: JSX.Element[] = [
       with the latest news concerning the spread of cases.
     </p>
   </div>,
+  <div>
+    <h1 id="projectTitle">Data Structures Final Project - Super Mario Maker Player Leaderboard</h1>
+    <h2 className="projectDates">November 2022 - December 2022</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/gS4-dzurwyQ"
+      title="YouTube video player"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+    <p className="projectText">
+      This C++ text-based application was created in a team of 3 people as a final project for the Data Structures & Algorithms class.
+    </p>
+    <h3 className="projectSubtitle">The Problem</h3>
+    <p className="projectText">
+      There are hundreds of thousands of Super Mario Maker players, but the original game on the Wii U does not have sufficient built-in functionality to easily sort all of the players based on characteristics such as number of plays, number of world records, and number of likes. Although the game has ample functionality for finding and filtering levels based on popularity or difficulty, it is not possible to sort through players and see their stats. Such functionality was once present through an online website, but it has since been shut down.
+    </p>
+    <p className="projectText">
+      This project allows users to see which players were the most active or had the highest standings. If theoretically implemented with live data, this would further encourage all players to do certain actions as they seek a position in the game’s leaderboards.
+    </p>
+    <h3 className="projectSubtitle">Features</h3>
+    <p className="projectText">
+      The main feature of this application is sorting players present in the database. Users can choose which category they want to sort by, which sorting algorithm to use, and what subset of results to display. A secondary feature is searching for a specific player by name and displaying all their corresponding stats in one place.
+    </p>
+  </div>,
 ];
 
 const Projects = () => {
@@ -175,6 +201,11 @@ const Projects = () => {
         <Project
           item={projectArray[2]}
           title="Engineering Design & Development - SMART Mask"
+          preview="/images/"
+        />
+        <Project
+          item={projectArray[3]}
+          title="Data Structures Final Project - SMM Player Leaderboard"
           preview="/images/"
         />
       </div>

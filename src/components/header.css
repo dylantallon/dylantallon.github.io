@@ -51,6 +51,13 @@ header {
   }
 }
 
+@media (max-width: 420px) {
+  .linkL {
+    margin-left: 10px;
+    font-size: 0px;
+  }
+}
+
 .linkR:hover {
   text-decoration: underline;
 }
