@@ -5,8 +5,6 @@ import Project from "../components/Project";
 
 const projectArray: JSX.Element[] = [
   <div>
-    <h1 id="projectTitle">TSA Video Game Design - Olympics Game</h1>
-    <h2 className="projectDates">September 2019 - February 2020</h2>
     <iframe
       width="560"
       height="315"
@@ -42,8 +40,6 @@ const projectArray: JSX.Element[] = [
     </p>
   </div>,
   <div>
-    <h1 id="projectTitle">TSA Video Game Design - Adventure Game</h1>
-    <h2 className="projectDates">September 2020 - February 2021</h2>
     <iframe
       width="560"
       height="315"
@@ -87,8 +83,6 @@ const projectArray: JSX.Element[] = [
     </p>
   </div>,
   <div>
-    <h1 id="projectTitle">Engineering Design & Development - SMART Mask</h1>
-    <h2 className="projectDates">September 2020 - May 2021</h2>
     <p className="projectText">
       This project was created in a team of 2 for a senior capstone engineering
       design course taken in high school. We came up with a product to help
@@ -154,8 +148,6 @@ const projectArray: JSX.Element[] = [
     </p>
   </div>,
   <div>
-    <h1 id="projectTitle">Data Structures Final Project - Super Mario Maker Player Leaderboard</h1>
-    <h2 className="projectDates">November 2022 - December 2022</h2>
     <iframe
       width="560"
       height="315"
@@ -165,18 +157,56 @@ const projectArray: JSX.Element[] = [
       allowFullScreen
     ></iframe>
     <p className="projectText">
-      This C++ text-based application was created in a team of 3 people as a final project for the Data Structures & Algorithms class.
+      This C++ text-based application was created in a team of 3 people as a final 
+      project for the Data Structures & Algorithms class.
     </p>
     <h3 className="projectSubtitle">The Problem</h3>
     <p className="projectText">
-      There are hundreds of thousands of Super Mario Maker players, but the original game on the Wii U does not have sufficient built-in functionality to easily sort all of the players based on characteristics such as number of plays, number of world records, and number of likes. Although the game has ample functionality for finding and filtering levels based on popularity or difficulty, it is not possible to sort through players and see their stats. Such functionality was once present through an online website, but it has since been shut down.
+      There are hundreds of thousands of Super Mario Maker players, but the 
+      original game on the Wii U does not have sufficient built-in functionality 
+      to easily sort all of the players based on characteristics such as number of 
+      plays, number of world records, and number of likes. Although the game has 
+      ample functionality for finding and filtering levels based on popularity or 
+      difficulty, it is not possible to sort through players and see their stats. 
+      Such functionality was once present through an online website, but it has 
+      since been shut down.
     </p>
     <p className="projectText">
-      This project allows users to see which players were the most active or had the highest standings. If theoretically implemented with live data, this would further encourage all players to do certain actions as they seek a position in the game’s leaderboards.
+      This project allows users to see which players were the most active or had 
+      the highest standings. If theoretically implemented with live data, this 
+      would further encourage all players to do certain actions as they seek a 
+      position in the game’s leaderboards.
     </p>
     <h3 className="projectSubtitle">Features</h3>
     <p className="projectText">
-      The main feature of this application is sorting players present in the database. Users can choose which category they want to sort by, which sorting algorithm to use, and what subset of results to display. A secondary feature is searching for a specific player by name and displaying all their corresponding stats in one place.
+      The main feature of this application is sorting players present in the 
+      database. Users can choose which category they want to sort by, which 
+      sorting algorithm to use, and what subset of results to display. A secondary 
+      feature is searching for a specific player by name and displaying all their 
+      corresponding stats in one place.
+    </p>
+  </div>,
+  <div>
+    <h3 className="projectSubtitle">Demo Video</h3>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/PJ9xQy0a4SA"
+      title="YouTube video player"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+    <h3 className="projectSubtitle">Description</h3>
+    <p className="projectText">
+      This website was created using Angular for a semester-long project in my
+      Software Engineering class. I worked with one other person on the front-end of
+      the app.
+    </p>
+    <p className="projectText">
+      This application enables users to search grocery store products using the 
+      Open Food Facts API, quickly view ingredients they may be personally allergic 
+      to in each product, and add desired items to their favorites or to personalized 
+      shopping lists.
     </p>
   </div>,
 ];
@@ -189,23 +219,38 @@ const Projects = () => {
       </div>
       <div className="projectGrid">
         <Project
-          item={projectArray[0]}
-          title="TSA Video Game Design - Olympics Game"
+          body={projectArray[0]}
+          shortTitle="TSA Video Game Design - Olympics Game"
+          longTitle="TSA Video Game Design - Olympics Game"
+          dates="September 2019 - February 2020"
           preview="/images/"
         />
         <Project
-          item={projectArray[1]}
-          title="TSA Video Game Design - Adventure Game"
+          body={projectArray[1]}
+          shortTitle="TSA Video Game Design - Adventure Game"
+          longTitle="TSA Video Game Design - Adventure Game"
+          dates="September 2020 - February 2021"
           preview="/images/"
         />
         <Project
-          item={projectArray[2]}
-          title="Engineering Design & Development - SMART Mask"
+          body={projectArray[2]}
+          shortTitle="Engineering Design & Development - SMART Mask"
+          longTitle="Engineering Design & Development - SMART Mask"
+          dates="September 2020 - May 2021"
           preview="/images/"
         />
         <Project
-          item={projectArray[3]}
-          title="Data Structures Final Project - SMM Player Leaderboard"
+          body={projectArray[3]}
+          shortTitle="Data Structures Final Project - SMM Player Leaderboard"
+          longTitle="Data Structures Final Project - Super Mario Maker Player Leaderboard"
+          dates="November 2022 - December 2022"
+          preview="/images/"
+        />
+        <Project
+          body={projectArray[4]}
+          shortTitle="SWE Class Project - Grocery Scanner Website"
+          longTitle="Software Engineering Class Project - Grocery Scanner Website"
+          dates="January 2023 - April 2023"
           preview="/images/"
         />
       </div>
