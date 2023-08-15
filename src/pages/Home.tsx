@@ -8,7 +8,7 @@ const Home = () => {
         <div className="infobox">
           <h1>Dylan Tallon</h1>
           <h2>
-            2nd-Year Computer Science Student at the University of Florida
+            3rd-Year Computer Science Student at the University of Florida
           </h2>
           <h3>Expected Graduation: May 2025</h3>
           <h3>Email: dylantallon313@gmail.com</h3>
