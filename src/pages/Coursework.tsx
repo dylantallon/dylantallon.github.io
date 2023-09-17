@@ -43,6 +43,15 @@ const Coursework = () => {
             "Professional Communication for Engineers",
           ]}
         />
+        <Collabsible
+          id="5"
+          semester="Fall 2023"
+          classes={[
+            "Operating Systems",
+            "Information & Database Systems",
+            "Creating Mobile Games",
+          ]}
+        />
       </div>
     </div>
   );
