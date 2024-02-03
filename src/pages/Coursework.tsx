@@ -52,6 +52,15 @@ const Coursework = () => {
             "Creating Mobile Games",
           ]}
         />
+        <Collabsible
+          id="6"
+          semester="Spring 2024"
+          classes={[
+            "Algorithm Abstraction & Design",
+            "AI for Virtual Environments and Games",
+            "User Experience Design",
+          ]}
+        />
       </div>
     </div>
   );

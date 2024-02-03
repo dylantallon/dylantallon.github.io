@@ -55,13 +55,13 @@ const projectArray: JSX.Element[] = [
       and developed using Unity.
     </p>
     <p className="projectText">
-      This game was created in a team of 4, and responsibilities were delegated
-      evenly across areas including 3D modeling, pixel art, environment, and
-      programming. This year's prompt was simply to create an adventure game, so
-      our team eventually settled on the idea of a space adventure. The intro
-      cutscene explains the story: you are trapped on an alien planet after your
-      spaceship crash lands and have to find all the parts scattered across the
-      planet to repair it and go back home.
+      This game was created in a team of 4, and tasks were delegated evenly. My
+      responsibilities included programming and shaping the terrain. This year's 
+      prompt was simply to create an adventure game, so our team eventually 
+      settled on the idea of a space adventure. The intro cutscene explains the 
+      story: you are trapped on an alien planet after your spaceship crash lands 
+      and have to find all the parts scattered across the planet to repair it 
+      and go back home.
     </p>
     <p className="projectText">
       The planet is a 3D open world space that the player must explore to find
@@ -209,6 +209,49 @@ const projectArray: JSX.Element[] = [
       shopping lists.
     </p>
   </div>,
+  <div>
+    <p className="projectText">
+      I competed with a team of 4 in the 2023 
+      <a 
+        className="projectLink"
+        href="https://gatortped.wixsite.com/home/swampthrills" 
+        target="_blank" 
+        rel="noreferrer">
+          Swamp Thrills design competition
+      </a>
+      hosted by Gator Theme Park Engineering & Design at UF. Our team decided to 
+      design a tracked dark ride to fit the given prompt, and I was responsible for 
+      creating a site layout for the attraction as well as a 3D model of the ride vehicle.
+    </p>
+    <h3 className="projectSubtitle">Model</h3>
+    <div className="imageSideBySide">
+      <img
+        src="/images/swampthrills model1.png"
+        alt="3D model of ride vehicle"
+      />
+      <img
+        src="/images/swampthrills model2.png"
+        alt="3D model of ride vehicle"
+      />
+    </div>
+    <img
+      className="singleImage"
+      src="/images/swampthrills schematics.png"
+      alt="Schematics of ride vehicle model"
+    />
+    <p className="projectText">
+      This ride vehicle seats 2 rows of 4 people. Each seat is intended to be secured 
+      by a seatbelt, and in front of each seat is a screen and a space for a shooter 
+      to be attached, allowing riders to score points on the ride. The vehicle also 
+      sits atop what is meant to be a motion base. This model was made using Onshape.
+    </p>
+    <h3 className="projectSubtitle">Site Layout</h3>
+    <img
+      className="singleImage"
+      src="/images/swampthrills layout.png"
+      alt="2D layout of dark ride"
+    />
+  </div>
 ];
 
 const Projects = () => {
@@ -223,35 +266,42 @@ const Projects = () => {
           shortTitle="TSA Video Game Design - Olympics Game"
           longTitle="TSA Video Game Design - Olympics Game"
           dates="September 2019 - February 2020"
-          preview="/images/"
+          technologies="Unity, C#"
         />
         <Project
           body={projectArray[1]}
           shortTitle="TSA Video Game Design - Adventure Game"
           longTitle="TSA Video Game Design - Adventure Game"
           dates="September 2020 - February 2021"
-          preview="/images/"
+          technologies="Unity, C#"
         />
         <Project
           body={projectArray[2]}
           shortTitle="Engineering Design & Development - SMART Mask"
           longTitle="Engineering Design & Development - SMART Mask"
           dates="September 2020 - May 2021"
-          preview="/images/"
+          technologies="Arduino, MIT App Inventor"
         />
         <Project
           body={projectArray[3]}
           shortTitle="Data Structures Final Project - SMM Player Leaderboard"
           longTitle="Data Structures Final Project - Super Mario Maker Player Leaderboard"
           dates="November 2022 - December 2022"
-          preview="/images/"
+          technologies="C++"
         />
         <Project
           body={projectArray[4]}
           shortTitle="SWE Class Project - Grocery Scanner Website"
           longTitle="Software Engineering Class Project - Grocery Scanner Website"
           dates="January 2023 - April 2023"
-          preview="/images/"
+          technologies="TypeScript, Angular"
+        />
+        <Project
+          body={projectArray[5]}
+          shortTitle="Swamp Thrills Ride Design Competition"
+          longTitle="Swamp Thrills Ride Design Competition"
+          dates="January 2023 - April 2023"
+          technologies="CAD software"
         />
       </div>
     </div>

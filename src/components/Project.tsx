@@ -6,10 +6,10 @@ type Props = {
   shortTitle: string,
   longTitle: string,
   dates: string,
-  preview: string
+  technologies: string
 }
 
-const Project = ({ body, shortTitle, longTitle, dates, preview }: Props) => {
+const Project = ({ body, shortTitle, longTitle, dates, technologies }: Props) => {
   const [popupOpen, setPopupOpen] = useState(false);
   const clickHandler = () => {
     setPopupOpen(!popupOpen);
@@ -19,6 +19,7 @@ const Project = ({ body, shortTitle, longTitle, dates, preview }: Props) => {
     <div>
       <button className="projectPreview" onClick={clickHandler}>
         <h2>{shortTitle}</h2>
+        <p>Technologies: {technologies}</p>
       </button>
       <div
         className="projectPopupOuter"

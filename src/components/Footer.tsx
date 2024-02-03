@@ -14,7 +14,7 @@ const footerStyle: React.CSSProperties = {
 
 const Footer = () => {
   return (
-    <footer style={footerStyle}>©2022 by Dylan Tallon. Made with React.</footer>
+    <footer style={footerStyle}>©2024 by Dylan Tallon. Made with React.</footer>
   );
 };
 
